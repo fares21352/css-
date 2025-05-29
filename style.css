@@ -17,7 +17,7 @@ a:link {
 
 /*visited link */
 a:visited {
-    color: burlywood;
+    color: blueviolet;
 }
 
 /*mousse over element */
@@ -28,4 +28,13 @@ div:hover {
 /* selected link */
 a:active {
     color: black;
+}
+
+.box {
+    color: brown;
+    width: 200px;
+    height: 150px;
+    background-color: lightblue;
+    border: 2px solid black;
+    padding: 15px;
 }
