@@ -42,6 +42,15 @@ a:active {
 
 .container {
     display: flex;
+    flex-direction: column;
     margin-top: auto;
     background-color: blue;
+    justify-content: flex-end
+}
+
+@media (max-width:500px) {
+    .container {
+        background-color: greenyellow;
+        flex-direction: column;
+    }
 }
