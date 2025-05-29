@@ -1,0 +1,31 @@
+h1 {
+    color: brown;
+}
+
+h2 {
+    color: aquamarine;
+}
+
+h3 {
+    color: darkgoldenrod;
+}
+
+/* univisited link */
+a:link {
+    color: turquoise;
+}
+
+/*visited link */
+a:visited {
+    color: burlywood;
+}
+
+/*mousse over element */
+div:hover {
+    color: darkmagenta;
+}
+
+/* selected link */
+a:active {
+    color: black;
+}
