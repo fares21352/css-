@@ -1,55 +1,14 @@
-h1 {
-    color: brown;
-}
-
-h2 {
-    color: aquamarine;
-}
-
-h3 {
-    color: darkgoldenrod;
-}
-
-/* univisited link */
-a:link {
-    color: turquoise;
-}
-
-/*visited link */
-a:visited {
-    color: blueviolet;
-}
-
-/*mousse over element */
-div:hover {
-    color: darkmagenta;
-}
-
-/* selected link */
-a:active {
-    color: black;
-}
-
-.box {
-    color: brown;
-    width: 200px;
-    height: 150px;
-    background-color: rgb(4, 85, 112);
-    border: 10px solid black;
-    padding: 20px;
-    margin: 20px;
-}
-
-.container {
+.countainer {
     display: flex;
-    margin-top: auto;
-    background-color: blue;
-    justify-content: flex-end
+    background-color: aqua;
+    justify-content: space-between;
+    height: 1000px;
+flex-wrap: wrap-reverse; /* wrap // no wrap // wrap-reverse */
 }
-
-@media (max-width:500px) {
-    .container {
-        background-color: greenyellow;
-        flex-direction: column;
-    }
+.box {
+    width: 500px;
+    height: 500px;
+    margin: 1px;
+    background-color: brown;
+border: 2px solid blue
 }
