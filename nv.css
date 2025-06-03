@@ -1,0 +1,36 @@
+#flx-box {
+    background-color: rgb(66, 7, 138);
+    text-align: center;
+
+    font-size: 30px;
+    color: aliceblue;
+    padding: 30px;
+    border: 30px;
+}
+
+.flex-box {
+    display: flex;
+    border: 3px solid black;
+    margin: 10px;
+
+}
+
+
+.box-one {
+    background-color: aqua;
+    margin: 10px;
+}
+
+.boxes {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    margin: 5px;
+}
+
+.bx {
+    display: flex;
+    justify-content: center;
+}
